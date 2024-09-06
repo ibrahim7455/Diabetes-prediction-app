@@ -1,19 +1,22 @@
-# 🎈 Blank app template
+# Diabetes Prediction App
 
-A simple Streamlit app template for you to modify!
+## Overview
+The Diabetes Prediction App predicts whether an individual is likely to have diabetes based on health metrics. The app uses a logistic regression model, enhanced with polynomial features, to provide predictions.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Features
+- **User Input**: Enter the following health metrics:
+  - **Glucose Level**: The level of glucose in the blood.
+  - **BMI**: Body Mass Index.
+  - **Insulin Level**: The amount of insulin in the blood.
+  - **Diabetes Pedigree Function**: A measure of diabetes history in the family.
+- **Prediction**: Receive a prediction on whether the individual is likely to have diabetes.
+- **Streamlit Interface**: Interactive and user-friendly web interface built with Streamlit.
 
-### How to run it on your own machine
+## Installation
 
-1. Install the requirements
+### Clone the Repository
+Clone the repository to your local machine:
 
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+```bash
+git clone https://github.com/yourusername/diabetes-prediction-app.git
+cd diabetes-prediction-app
